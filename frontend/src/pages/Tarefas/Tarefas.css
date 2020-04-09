@@ -1,0 +1,13 @@
+.menu {
+    display: relative;
+    background-color: #424242;
+    margin: 0;
+    width: 100vw;
+    height: 73px;
+}
+
+div{
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
