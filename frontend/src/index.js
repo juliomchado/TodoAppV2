@@ -1,11 +1,11 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Tarefas from './pages/Tarefas/Tarefas';
+import App from './App';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Tarefas />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
