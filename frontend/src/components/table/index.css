@@ -1,0 +1,17 @@
+table {
+    position: absolute;
+    top: 50%;
+    width: 100vw;
+    min-height: 50%;
+    height: auto;
+    background-color: #fff;
+}
+table th {
+    padding-top: 10px;
+}
+table td {
+    text-align: center;
+}
+table tr {
+    height: 80px;
+}
