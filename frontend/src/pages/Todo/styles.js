@@ -5,7 +5,7 @@ export const Container = styled.div`
     display: flex;
     width: 100%;
     min-height: 100vh;
-    background-color: #ededed;
+    background-color: #fff;
     align-items: center;
     flex-direction: column;
 
@@ -39,7 +39,7 @@ export const Container = styled.div`
         align-items: center;
     }
     
-    input{
+    .div-input input{
         border-radius: 10px;
         width: 90%;
         border: 1px solid rgba(113,113,113,0.6);
@@ -49,7 +49,7 @@ export const Container = styled.div`
         padding-left: 8px;
         transition: 0.5s;
       }
-    input:focus{
+    .div-input input:focus{
         border-color: rgba(0,0,0,0.6);
       }
 
@@ -59,7 +59,7 @@ export const Container = styled.div`
         width: 100vw;
         min-height: 50%;
         height: auto;
-        background-color: #fff;
+        background-color: #ededed;
     }
     table th {
         padding-top: 10px;
@@ -69,6 +69,23 @@ export const Container = styled.div`
     }
     table tr {
         height: 80px;
+    }
+
+    .search,
+    .new{
+        width: 30px;
+        height: 30px;
+        margin-left: 10px;
+        transition: .5s;
+        cursor: pointer;
+    }
+
+    .search:hover{
+        color: #ff000099;
+    }
+
+    .new:hover{
+        color: #27960599;
     }
 
 `;
